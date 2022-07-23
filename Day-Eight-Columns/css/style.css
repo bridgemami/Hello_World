@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+.rowFlex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#twoA {
+    flex: 50%;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border: black solid 5px;
+}
+
+#twoB {
+    flex: 50%;
+    background-color: peru;
+    border: solid red 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#rowTwo {
+    background-color: crimson;
+}
+.columnTwo {
+    float: left;
+    padding: 10px;
+    height: 100px;
+}
+#leftTwo {
+    width: 33%;
+    background-color: aqua;
+    border: solid black 5px;
+}
+
+#rightTwo { 
+    width: 67%;
+    background-color: peru;
+    border: solid red 5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #columnThreeEvenOne {
+    float:left;
+    width: 33.3%;
+    background-color: red;
+    border: greenyellow solid 5px;
+  }
+  #columnThreeEvenTwo {
+    float:left;
+    width: 33.3%;
+    background-color: white;
+    border: grey solid 5px;
+  }
+
+  #columnThreeEvenThree {
+    float:left;
+    width: 33.4%;
+    background-color: blue;
+    border: 5px solid pink;
+  }
+
+  #columnThreeOddOne {
+    float:left;
+    width: 20%;
+    background-color: red;
+    border: greenyellow solid 5px;
+  }
+
+  #columnThreeOddTwo {
+    float:left;
+    width: 50%;
+    background-color: white;
+    border: grey solid 5px;
+  }
+
+  #columnThreeOddThree {
+    float:left;
+    width: 30%;
+    background-color: blue;
+    border: 5px solid pink;
+  }
+
+  #columnFourEvenOne {
+    float:left;
+    width: 25%;
+    background-color: darksalmon;
+    border: 5px solid tan;
+  }
+
+  #columnFourEvenTwo {
+    float:left;
+    width: 25%;
+    background-color: hotpink;
+    border: 5px solid purple;
+  }
+
+  #columnFourEvenThree {
+    float:left;
+    width: 25%;
+    background-color: lightgreen;
+    border: 5px solid indianred;
+  }
+
+  #columnFourEvenFour {
+    float:left;
+    width: 25%;
+    background-color: turquoise;
+    border: 5px solid teal;
+  }
+
+  #columnFourOddOne {
+    float:left;
+    width: 30%;
+    background-color: darksalmon;
+    border: 5px solid tan;
+  }
+
+  #columnFourOddTwo {
+    float:left;
+    width: 40%;
+    background-color: hotpink;
+    border: 5px solid purple;
+  }
+
+  #columnFourOddThree {
+    float:left;
+    width: 10%;
+    background-color: lightgreen;
+    border: 5px solid indianred;
+  }
+
+  #columnFourOddFour {
+    float:left;
+    width: 20%;
+    background-color: turquoise;
+    border: 5px solid teal;
+  }
